@@ -2,3 +2,5 @@
 	1.1 - importar a sprite walk							ok
 	1.2 - criar o object player e colocar a sprite wwalk	ok
 	
+2 - Fazendo a movimentacao do player						-
+	2.1 - criar o metodo de movimentacao usando wasd		-
