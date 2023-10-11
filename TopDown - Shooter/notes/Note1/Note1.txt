@@ -1,0 +1,4 @@
+1 - Iniciando o player										ok
+	1.1 - importar a sprite walk							ok
+	1.2 - criar o object player e colocar a sprite wwalk	ok
+	
