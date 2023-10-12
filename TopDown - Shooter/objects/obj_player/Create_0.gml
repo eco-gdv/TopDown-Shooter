@@ -2,6 +2,9 @@ move_speed = 5
 hspd = 0
 vspd = 0
 
+timer = 0
+rate = room_speed * 0.2
+
 ///@method move(right, left, down, up)
 move = function(right, left, down, up)
 {
@@ -21,11 +24,20 @@ aim_and_fire = function()
 	
 	var _fire = mouse_check_button(mb_left)
 	
-	if _fire
-	{
-		var _bullet = instance_create_layer(x, y, "Bullets", obj_bullet)
-		_bullet.direction = _dir
+	if timer <= 0 
+	{ 
+		if _fire
+		{
+			var _bullet = instance_create_layer(x, y, "Bullets", obj_bullet)
+			_bullet.direction = _dir
+			timer = rate
+		}
 	}
+	else
+	{
+		timer-- 
+	}
+	
 }
 
 ///@method anim(right, left, down, up)
