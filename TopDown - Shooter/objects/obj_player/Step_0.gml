@@ -6,3 +6,5 @@ var _up = keyboard_check(ord("W"))
 move(_right, _left, _down, _up)
 
 aiming()
+
+anim()
