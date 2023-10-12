@@ -7,4 +7,4 @@ move(_right, _left, _down, _up)
 
 aiming()
 
-anim()
+anim(_right, _left, _down, _up)

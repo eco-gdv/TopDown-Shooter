@@ -17,15 +17,16 @@ aiming = function()
 	image_angle = point_direction(x, y, mouse_x, mouse_y)
 }
 
-anim = function()
+///@method anim(right, left, down, up)
+anim = function(right, left, down, up)
 {
-	if hspd == 0 && vspd == 0 
+	if right || left || down || up
 	{ 
-		image_speed = 0
-		image_index = 2
+		image_speed = 1
 	}
 	else
 	{
-		image_speed = 1
+		image_speed = 0
+		image_index = 2
 	}
 }
