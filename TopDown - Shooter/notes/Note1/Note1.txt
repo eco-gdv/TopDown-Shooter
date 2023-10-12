@@ -11,3 +11,8 @@
 	3.1 - ajustando o tamanho da room						ok
 	3.2 - ajustando o tamanho da viewport					ok
 	3.3 - fazendo a camera seguir o player					ok
+
+4 - Criando a bullet do player								ok
+	4.1 - importando a sprite								ok
+	4.2 - criando o object									ok
+		4.2.1 - definindo as variaveis da bullet			-

@@ -12,9 +12,20 @@ move = function(right, left, down, up)
 	y += vspd
 }
 
-aiming = function()
+///@method aim_and_fire()
+aim_and_fire = function()
 {
-	image_angle = point_direction(x, y, mouse_x, mouse_y)
+	var _dir = point_direction(x, y, mouse_x, mouse_y)
+	
+	image_angle = _dir
+	
+	var _fire = mouse_check_button(mb_left)
+	
+	if _fire
+	{
+		var _bullet = instance_create_layer(x, y, "Bullets", obj_bullet)
+		_bullet.direction = _dir
+	}
 }
 
 ///@method anim(right, left, down, up)
