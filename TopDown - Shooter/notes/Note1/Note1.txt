@@ -6,3 +6,8 @@
 	2.1 - criar o metodo de movimentacao usando wasd		ok
 
 3 - Fazendo o player olhar na direcao do mouse				ok
+
+3 - Configurando a camera									ok
+	3.1 - ajustando o tamanho da room						ok
+	3.2 - ajustando o tamanho da viewport					ok
+	3.3 - fazendo a camera seguir o player					ok
