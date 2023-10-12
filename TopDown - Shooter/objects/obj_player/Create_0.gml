@@ -11,3 +11,8 @@ move = function(right, left, down, up)
 	x += hspd
 	y += vspd
 }
+
+aiming = function()
+{
+	image_angle = point_direction(x, y, mouse_x, mouse_y)
+}
